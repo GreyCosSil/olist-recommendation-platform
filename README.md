@@ -21,7 +21,6 @@ olist-recommendation-platform/
 │   └── environments/
 │       ├── dev.yml
 │       └── prod.yml
-│       └── hml.yml
 │
 ├── notebooks/
 │   ├── bronze/
