@@ -14,4 +14,4 @@ targets:
     default: true
 
 workspace:
-  host: "https://{var.workspace_id}.cloud.databricks.com"
+  host: "https://dbc-${workspace_id}.cloud.databricks.com"
