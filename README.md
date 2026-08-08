@@ -1,6 +1,6 @@
 # Olist Recommendation Platform
 
-This repository contains a starter structure for building a recommendation platform on Databricks using Terraform, Databricks Asset Bundles, notebooks, and Python-based data science code.
+This repository contains a starter structure for building a recommendation platform on Databricks using Terraform, Databricks Asset Bundles, notebooks, and Python-based code.
 
 ## Overview
 
@@ -9,7 +9,7 @@ The project is organized to support:
 - infrastructure provisioning with Terraform
 - Databricks workflow orchestration with bundles
 - data engineering and ML notebooks
-- feature engineering and model training code
+- feature engineering and model training code Z
 - documentation and tests for a scalable analytics workflow
 
 ## Project Structure
