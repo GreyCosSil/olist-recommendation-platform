@@ -10,3 +10,4 @@ id_ed25519_github
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfvars
+.terraform*

@@ -8,14 +8,6 @@ sync:
   include:
     - ../notebooks/**
 
-# variables:
-#   schema_name:
-#     description: "Schema da tabela"
-#     default: "teste_schema"
-
-#   table_name:
-#     description: "Nome da tabela"
-#     default: "tabela_teste"
 
 targets:
   dev:
