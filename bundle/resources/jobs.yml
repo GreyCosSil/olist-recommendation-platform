@@ -1,0 +1,10 @@
+resources:
+  jobs:
+    hello_world:
+      name: hello-world
+
+      tasks:
+        - task_key: hello
+
+          notebook_task:
+            notebook_path: ../notebooks/hello_world.py
