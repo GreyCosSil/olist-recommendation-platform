@@ -18,3 +18,14 @@ variable "workspace_id" {
   description = "The Databricks workspace ID."
   type        = string
 }
+
+variable "schema_name" {
+  description = "Name of the schema to create in the Databricks catalog."
+  type        = string
+}
+
+variable "table_name" {
+  description = "Name of the table to create in the Databricks catalog."
+  type        = string
+}
+

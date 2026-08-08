@@ -9,3 +9,4 @@ terraform {
 provider "databricks" {
   profile = var.databricks_connection_profile
 }
+

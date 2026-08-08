@@ -8,3 +8,7 @@ resources:
 
           notebook_task:
             notebook_path: ../notebooks/tabela_teste.py
+
+              base_parameters:
+                schema_name: ${var.schema_name}
+                table_name: ${var.table_name}
