@@ -1,0 +1,12 @@
+# Core Python dependencies
+pandas>=2.2.0
+numpy>=1.9.0
+scikit-learn>=1.8.0
+
+# Databricks / ML support
+mlflow>=2.0.0
+databricks-sdk>=0.20.0
+
+# Notebook and data utilities
+jupyter>=1.0.0
+python-dotenv>=1.0.0

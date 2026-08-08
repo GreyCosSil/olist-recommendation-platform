@@ -1,10 +1,10 @@
 resources:
   jobs:
-    hello_world:
-      name: hello-world
+    tabela_teste:
+      name: tabela-teste
 
       tasks:
-        - task_key: hello
+        - task_key: tabela_teste
 
           notebook_task:
-            notebook_path: ../notebooks/hello_world.py
+            notebook_path: ../notebooks/tabela_teste.py

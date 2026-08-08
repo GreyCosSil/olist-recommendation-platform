@@ -14,3 +14,8 @@ df = spark.createDataFrame(
 )
 
 df.show()
+
+spark.sql("CREATE SCHEMA IF NOT EXISTS teste_schema")
+
+# Exemplo com PySpark
+df.write.mode("overwrite").format("delta").option("mergeSchema", "true").saveAsTable("teste_schema.tabela_teste")
