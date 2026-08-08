@@ -7,7 +7,10 @@ id_ed25519
 id_ed25519_github
 *.pem
 *.key
-terraform.tfstate
-terraform.tfstate.backup
 terraform.tfvars
-.terraform*
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
