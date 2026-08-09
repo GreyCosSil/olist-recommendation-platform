@@ -7,7 +7,12 @@ include:
 sync:
   include:
     - ../notebooks/**
+variables:
+  schema_name:
+    default: teste_schema
 
+  table_name:
+    default: tabela_teste
 
 targets:
   dev:
